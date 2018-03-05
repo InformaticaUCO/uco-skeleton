@@ -14,9 +14,9 @@ namespace App\Security\Core\User;
 use App\Entity\User;
 use HWI\Bundle\OAuthBundle\OAuth\Response\UserResponseInterface;
 use HWI\Bundle\OAuthBundle\Security\Core\Exception\AccountNotLinkedException;
-use HWI\Bundle\OAuthBundle\Security\Core\User\FOSUBUserProvider as BaseFOSUBUserProvider;
+use HWI\Bundle\OAuthBundle\Security\Core\User\FOSUBUserProvider;
 
-class FOSUBUserProvider extends BaseFOSUBUserProvider
+class OAuth2SimpleSAMLphpUserProvider extends FOSUBUserProvider
 {
     public function loadUserByOAuthUserResponse(UserResponseInterface $response)
     {
