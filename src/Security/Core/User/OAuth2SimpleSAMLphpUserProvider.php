@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the 'cha' project.
+ * This file is part of the 'uco-skeleton' project.
  *
- * (c) Sergio Gómez <sergio@uco.es>
+ * (c) Servicio de Informática de la Universidad de Córdoba
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
