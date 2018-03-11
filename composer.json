@@ -12,6 +12,7 @@
         "php-http/httplug-bundle": "^1.8",
         "ramsey/uuid": "^3.7",
         "sensio/framework-extra-bundle": "^5.1",
+        "spomky-labs/jose": "^7.0",
         "symfony/asset": "^3.4",
         "symfony/console": "^3.4",
         "symfony/debug-pack": "*",
